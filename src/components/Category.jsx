@@ -4,7 +4,7 @@ import { categories } from "../data/data";
 function Category() {
   console.log(categories);
   return (
-    <div className="max-w-[1360px] px-4 py-12 ">
+    <div className="max-w-[1360px] m-auto  px-4 py-12 ">
       <h1 className=" text-orange-600 font-bold text-4xl text-center">
         Top Rated Menu Items{" "}
       </h1>
